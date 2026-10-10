@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#16232a"/><stop offset="1" stop-color="#0a0e11"/></linearGradient>
+<linearGradient id="ice" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#c9f6fc"/><stop offset=".55" stop-color="#6fd8e8"/><stop offset="1" stop-color="#3ecf8e"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".42" r=".55"><stop offset="0" stop-color="#6fd8e8" stop-opacity=".22"/><stop offset="1" stop-color="#6fd8e8" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="512" height="512" rx="114" fill="url(#bg)"/>
+<rect width="512" height="512" rx="114" fill="url(#glow)"/>
+<rect x="1.5" y="1.5" width="509" height="509" rx="112.5" fill="none" stroke="#ffffff" stroke-opacity=".07" stroke-width="3"/>
+<g transform="translate(256 256) scale(15.5) translate(-12 -12)" fill="none" stroke="url(#ice)" stroke-linecap="round" stroke-linejoin="round"><path d="M12.00 3.00 L19.79 7.50 L19.79 16.50 L12.00 21.00 L4.21 16.50 L4.21 7.50 ZM12 12 L4.21 7.50 M12 12 L19.79 7.50 M12 12 L12.00 21.00 " stroke-width="1.45"/><path d="M12.00 5.45 L12.00 9.55 M13.78 6.48 L10.22 8.52 M13.78 8.53 L10.22 6.47 M8.10 12.20 L8.10 16.30 M9.88 13.22 L6.32 15.28 M9.88 15.28 L6.32 13.22 M15.90 12.20 L15.90 16.30 M17.68 13.22 L14.12 15.28 M17.68 15.28 L14.12 13.22 " stroke-width="1.2"/></g>
+</svg>
